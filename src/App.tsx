@@ -1,10 +1,11 @@
-import logo from "./logo.svg"
-import { Counter } from "./features/counter/Counter"
-import "./App.css"
+import "./App.scss"
+import { TodoList } from "./components/TodoList"
 
 function App() {
   return (
-    <div>HEllo</div>
+    <article className="app">
+      <TodoList />
+    </article>
   )
 }
 
