@@ -2,6 +2,7 @@
   "name": "vite-template-redux",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://kochetov-yevhen-may29.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
