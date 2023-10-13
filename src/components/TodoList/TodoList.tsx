@@ -21,6 +21,7 @@ export const TodoList: React.FC = () => {
   const todos = useAppSelector(todosState).todos
 
   const filteredTodos = filterTodos(todos, { filter })
+
   const handleShow = () => {
     setShowModal(true)
     setEditing(false)
